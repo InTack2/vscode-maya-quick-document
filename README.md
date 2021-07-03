@@ -1,65 +1,32 @@
 # MayaQuickDocument
+[Japanese version](./README_jp.md)
 
-MayaQuickDocument is an extension that allows you to easily open code documents while coding in VSCode.
+
+MayaQuickDocument is an extension that makes it easy to open code documents while coding in VSCode.
 
 ## Features
+You can use the browser to display the command at the cursor position, or use the
+\features X\(images/feature-x.png\)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Display the command document for the selected word.
+\features X\(images/feature-x.png\)
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+It can be run from the menu, but by default it can be run with `Ctrl+;`.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+This extension provides the following settings.
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+* `maya-quick-document.target-language`: Sets the language in which the document will be displayed. The default is "JPN". ENU" and "CHS" can be set.
+* `maya-quick-document.use-maya-version`: Specify the Maya version. Default is "2018".
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+We have not confirmed the operation on non-Windows systems.  
+This may cause problems such as the browser not being able to start.
+(If you can, please report any problems.)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### 0.0.1
+Initial release

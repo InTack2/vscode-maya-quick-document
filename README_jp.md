@@ -1,65 +1,34 @@
-# maya-quick-document README
-
-これは、あなたの拡張機能 "maya-quick-document" の README です。簡単な説明を書いた後に、以下のセクションを含めることをお勧めします。
+# MayaQuickDocument
+MayaQuickDocumentは、VSCodeでのコーディング中にコードドキュメントを簡単に開くことができる拡張機能です。
 
 ## 機能
+カーソル位置のコマンドをbrowserで表示したり、
+画像
 
-あなたの拡張機能の具体的な特徴を、実際に動作しているスクリーンショットを含めて記述します。画像のパスはこのREADMEファイルからの相対パスです。
-
-例えば、あなたの拡張機能プロジェクトのワークスペースの下に image サブフォルダがあるとします。
-
+選択範囲のワードに該当するコマンドDocumentを表示したりできます。
+画像
 \features X\】\(images/feature-x.png\)
 
-> ヒント 人気のある拡張機能には、アニメーションを利用したものが多くあります。これは、あなたのエクステンションをアピールするのに最適な方法です。アニメーションは、短くて分かりやすいものをお勧めします。
+メニューから実行できますが、デフォルトでは`Ctrl+;`で実行可能です。
 
-## 要件
-
-要件や依存関係がある場合は、それらを説明するセクションを追加し、どのようにインストールして設定するかを記述します。
 
 ## 拡張機能の設定
-
-拡張機能が `contributes.configuration` 拡張ポイントを通じて VS Code の設定を追加している場合は、それを含めます。
-
-例えば、以下のようになります。
-
 この拡張機能は以下の設定を提供します。
 
-* `myExtension.enable`: この拡張機能を有効/無効にします。
-* `myExtension.thing`: 何かを行うために `blah` を設定します。
+* `maya-quick-document.target-language`: ドキュメントを表示する言語を設定します。デフォルトは「JPN」。「ENU」と「CHS」が設定可能です。
+* `maya-quick-document.use-maya-version`: Mayaバージョンを指定します。デフォルトは「2018」です。
 
 ## 既知の問題
-
-既知の問題を指摘することで、ユーザーが拡張機能に対して重複した問題を開くのを防ぐことができます。
+Windows以外では動作確認ができていません。  
+ブラウザーが起動できないなどの問題が発生する可能性があります。
+(もし、可能であれば問題がある場合、ご報告ください。)
 
 ## リリースノート
 
-拡張機能をアップデートする際には、リリースノートがあるとユーザーに喜ばれます。
+### 0.0.1
+初回リリース
 
-### 1.0.0
-
-最初のリリース...
-
-### 1.0.1
-
-問題点を修正しました。
-
-### 1.1.0
-
-機能 X、Y、Z を追加しました。
-
------------------------------------------------------------------------------------------------------------
-
-## Markdownでの作業
-
-**注：** Visual Studio Codeを使ってREADMEを作成することができます。 以下に便利なエディタのキーボードショートカットを紹介します。
-
-* エディタを分割する（macOSでは`Cmd+\`、WindowsやLinuxでは`Ctrl+\`）。
-* トグルプレビュー (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* `Ctrl+Space` (Windows, Linux) または `Cmd+Space` (macOS) を押すと、Markdown スニペットの一覧が表示されます。
-
-### 詳細はこちら
-
-* [Visual Studio Code の Markdown サポート](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**エンジョイ！ **
+## 今後の予定
+* cmds以外のコマンドの対応
+  * [ ] MayaAPI2.0
+  * [ ] pymel
