@@ -1,0 +1,65 @@
+{
+  "publisher": "Tack2",
+  "name": "maya-quick-document",
+  "displayName": "Maya Quick Document",
+  "description": "An extension that allows you to easily open code documents while coding in VSCode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:maya-quick-document.show-document"
+  ],
+  "main": "./extension.js",
+  "repository": "https://github.com/InTack2/maya-quick-document",
+  "contributes": {
+    "commands": [
+      {
+        "command": "maya-quick-document.show-document",
+        "title": "maya-quick-document: Show Document"
+      }
+    ],
+    "keybindings": {
+      "command": "maya-quick-document.show-document",
+      "key": "ctrl+oem_1"
+    },
+    "configuration": {
+      "title": "MayaQuickDocument",
+      "properties": {
+        "maya-quick-document.target-language": {
+          "type": "string",
+          "default": "JPN",
+          "enum": [
+            "JPN",
+            "ENU",
+            "CHS"
+          ],
+          "description": "target language."
+        },
+        "maya-quick-document.use-maya-version": {
+          "type": "integer",
+          "default": 2018,
+          "description": "select Maya version."
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.57.0",
+    "eslint": "^7.27.0",
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
+  },
+  "dependencies": {
+    "open": "^8.2.1",
+    "request": "^2.88.2"
+  }
+}
