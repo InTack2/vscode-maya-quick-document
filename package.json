@@ -16,9 +16,11 @@
   "main": "./extension.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/InTack2/vscode-maya-quick-document",
+    "url": "https://github.com/InTack2/vscode-maya-quick-document"
   },
-  "bugs": "https://github.com/InTack2/vscode-maya-quick-document/issues",
+  "bugs": {
+    "url": "https: //github.com/InTack2/vscode-maya-quick-document/issues"
+  },
   "contributes": {
     "commands": [
       {
