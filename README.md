@@ -6,12 +6,13 @@ MayaQuickDocument is an extension that makes it easy to open code documents whil
 
 ## Features
 You can use the browser to display the command at the cursor position, or use the  
-\features X\(images/feature-x.png\)  
+\MayaQuickDocument_Intro\(images/MayaQuickDocument_Intro.gif\)  
 
 Display the command document for the selected word.  
-\features X\(images/feature-x.png\)  
+\MayaQuickDocument_Selection\(images/MayaQuickDocument_Selection.gif\)  
 
 It can be run from the menu, but by default it can be run with `Ctrl+;`.  
+\MayaQuickDocument_Selection\(images/MayaQuickDocument_menu.gif\)  
 
 ## Extension Settings
 

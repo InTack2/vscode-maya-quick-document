@@ -19,7 +19,7 @@
     "commands": [
       {
         "command": "maya-quick-document.show-document",
-        "title": "maya-quick-document: Show Document"
+        "title": "MayaQuickDocument: Show Document"
       }
     ],
     "keybindings": {
