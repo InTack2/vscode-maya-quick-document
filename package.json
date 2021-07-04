@@ -14,7 +14,11 @@
     "onCommand:maya-quick-document.show-document"
   ],
   "main": "./extension.js",
-  "repository": "https://github.com/InTack2/maya-quick-document",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InTack2/vscode-maya-quick-document",
+  },
+  "bugs": "https://github.com/InTack2/vscode-maya-quick-document/issues",
   "contributes": {
     "commands": [
       {
