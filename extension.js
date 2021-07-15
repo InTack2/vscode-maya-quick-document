@@ -1,5 +1,3 @@
-// モジュール'vscode'には、VS Codeの拡張性APIが含まれています。
-// このモジュールをインポートして、以下のコードで vscode というエイリアスで参照します。
 const vscode = require('vscode');
 
 const { format } = require("util");
@@ -57,7 +55,7 @@ function activate(context) {
             }
             console.log(word);
 
-            const target_url = format("https://help.autodesk.com/cloudhelp/%s/%s/Maya-Tech-Docs/Commands/%s.html", target_maya_version, target_language, word);
+            const target_url = format("https://help.autodesk.com/cloudhelp/%s/%s/Maya-Tech-Docs/CommandsPython/%s.html", target_maya_version, target_language, word);
 
             console.log("target_url", target_url);
 
@@ -80,7 +78,6 @@ function activate(context) {
     context.subscriptions.push(disposable_2);
 }
 
-// このメソッドは、エクステンションが非アクティブになったときに呼び出されます。
 function deactivate() { }
 
 module.exports = {

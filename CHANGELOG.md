@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "maya-quick-document" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
+## [0.0.2] - 2020-07-16
+
+### fixed
+- Fixed because it was Mel URL.
+
+## [0.0.1] - 2021-07-04
+
+### added
 - Initial release

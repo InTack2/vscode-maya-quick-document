@@ -31,3 +31,6 @@ This may cause problems such as the browser not being able to start.
 
 ### 0.0.1
 Initial release
+
+### 0.0.2
+Fixed because it was Mel URL.
