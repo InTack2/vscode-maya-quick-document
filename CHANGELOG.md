@@ -1,6 +1,9 @@
 # Change Log
 
-## [Unreleased]
+## [released]
+
+## [0.0.2] - 2021-12-19
+- add Webview mode.
 
 ## [0.0.2] - 2020-07-16
 
