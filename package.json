@@ -3,7 +3,7 @@
   "name": "maya-quick-document",
   "displayName": "Maya Quick Document",
   "description": "An extension that allows you to easily open code documents while coding in VSCode.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.57.0"
   },
