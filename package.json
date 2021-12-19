@@ -58,6 +58,15 @@
             2022
           ],
           "description": "select Maya version."
+        },
+        "maya-quick-document.open-type": {
+          "type": "string",
+          "default": "browser",
+          "enum": [
+            "browser",
+            "webview"
+          ],
+          "description": "Choose how to open it."
         }
       }
     }
